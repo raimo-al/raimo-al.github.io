@@ -153,11 +153,9 @@ a.button {
 }
 
 /* Layout for header (text left, image right) */
-.card-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
+.card-content .image img {
+  width: 220px;        /* bigger image */
+  border-radius: 0;    /* removes circle */
 }
 
 /* Text block */

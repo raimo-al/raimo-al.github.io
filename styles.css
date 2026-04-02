@@ -1,0 +1,154 @@
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  line-height: 1.5;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.highlight {
+    font-weight: 600;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 18px 0;
+  box-sizing: border-box;
+}
+
+.button-group {
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #0056b3;
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+#cookie-banner {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+#cookie-banner button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#cookie-banner button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+#cookie-banner button:last-of-type {
+  background-color: #aaa;
+  color: black;
+}
+
+/* Mobile responsiveness */
+  @media (max-width: 600px) {
+  body {
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  .card {
+    padding: 14px;
+  }
+
+  a.button {
+    width: 100%;
+  }
+}
+  
+/* Navbar base */
+.navbar {
+  width: 100%;
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #d0d7de;
+  padding: 10px 0;
+}
+
+/* Container */
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* key change */
+  gap: 40px; /* controls distance */
+}
+
+/* Name (left side) */
+.nav-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #004080;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 45px;  /* try 45–60px */
+}
+
+/* Links container */
+.nav-links a {
+  font-size: 1.2rem;
+  color: #004080;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px; /* creates space for underline */
+
+}
+
+.nav-container a.active::after {
+  width: 100%;
+}
+
+.nav-container a {
+  position: relative;
+  padding-bottom: 4px;
+  text-decoration: none;
+}
+
+/* underline (hidden) */
+.nav-container a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background-color: #004080;
+  transition: width 0.25s ease;
+}
+
+/* hover */
+.nav-container a:hover::after {
+  width: 100%;
+}
+

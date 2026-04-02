@@ -168,3 +168,14 @@ a.button {
   width: 140px;        /* adjust size here */
   border-radius: 50%;
 }
+
+.header-photo {
+  display: flex;
+  justify-content: flex-end;   /* pushes image to the right */
+  margin: 20px 0;
+}
+
+.header-photo img {
+  width: 200px;        /* adjust size here */
+  border-radius: 0;    /* rectangular */
+}

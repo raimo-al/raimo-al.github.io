@@ -163,19 +163,15 @@ a.button {
   flex: 1;
 }
 
-/* Image styling */
-.card-content .image img {
-  width: 140px;        /* adjust size here */
-  border-radius: 50%;
-}
+/* Layout for CV*/
 
 .header-photo {
   display: flex;
-  justify-content: flex-end;   /* pushes image to the right */
+  justify-content: flex-end;
   margin: 20px 0;
 }
 
 .header-photo img {
-  width: 200px;        /* adjust size here */
-  border-radius: 0;    /* rectangular */
+  width: 160px;       /* smaller size */
+  border-radius: 0;   /* rectangular */
 }

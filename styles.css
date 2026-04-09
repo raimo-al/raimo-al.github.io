@@ -154,7 +154,7 @@ a.button {
 
 /* Layout for header (text left, image right) */
 .card-content .image img {
-  width: 220px;        /* bigger image */
+  width: 150px;        /* bigger image */
   border-radius: 0;    /* removes circle */
 }
 

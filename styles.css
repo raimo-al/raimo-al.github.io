@@ -253,16 +253,24 @@ a.button {
 }
 
 .left-column {
-  flex: 1;
+  flex: 0 0 55%;
 }
 
+/* RIGHT SIDE (Photo) */
 .profile-photo {
-  flex: 0 0 160px;
+  flex: 0 0 45%;
+  display: flex;
+  justify-content: center; 
 }
 
+/* IMAGE */
 .profile-photo img {
-  width: 160px;
+  width: 200px;  
   height: auto;
-  display: block;
-  border-radius: 8px;
+  border-radius: 10px;
+
+.top-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px; /* slightly bigger gap looks nicer */
 }

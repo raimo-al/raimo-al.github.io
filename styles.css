@@ -192,3 +192,21 @@ a.button {
   border-radius: 10px; /* optional: makes it look nicer */
   margin-left: 20px;
 }
+
+
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.contact-card {
+  flex: 1;
+}
+
+.profile-photo img {
+  width: 160px;   /* CHANGED: controls size */
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}

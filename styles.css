@@ -210,3 +210,20 @@ a.button {
   display: block;
   border-radius: 10px;
 }
+
+/*CV: photo on the right next to contact section*/
+.top-row {
+  display: flex;
+  align-items: flex-start; /* aligns photo with top (Contact section) */
+  gap: 30px;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.profile-photo img {
+  width: 150px;   /* adjust size here */
+  height: auto;
+  border-radius: 10px;
+}

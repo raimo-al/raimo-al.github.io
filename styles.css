@@ -175,3 +175,20 @@ a.button {
   width: 160px;       /* smaller size */
   border-radius: 0;   /* rectangular */
 }
+
+/*CV: photo on the right next to contact section*/
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-photo img {
+  width: 120px;
+  border-radius: 10px; /* optional: makes it look nicer */
+  margin-left: 20px;
+}

@@ -227,3 +227,20 @@ a.button {
   height: auto;
   border-radius: 10px;
 }
+
+.top-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.profile-photo img {
+  width: 140px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
